@@ -8,4 +8,5 @@ int main(){
     printf("%d\n", h);
     printf("%d\n", m);
     printf("%d\n", s);
+    return 0;
 }

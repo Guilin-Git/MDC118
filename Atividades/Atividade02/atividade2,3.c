@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int nota = 6;
+    int nota = 5;
     switch (nota)
     {
     case 1:
@@ -21,4 +21,5 @@ int main(){
     default:
         break;
     }
+    return 0;
 }

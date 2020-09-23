@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    double preco = 580;
+    double preco = 400;
     if (preco >= 0.00 && preco <= 100.00)
     {
         printf("%s\n", "voce ganhou 1% de desconto");
@@ -13,6 +13,6 @@ int main(){
     {
         printf("%s\n", "voce ganhou 10% de desconto");
     }
-    
+    return 0;
     
 }

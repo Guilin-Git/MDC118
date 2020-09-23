@@ -1,7 +1,7 @@
 #include <stdio.h>
    int main(){
 
-       int condicao = 10;
+       int condicao = 1540;
        if (condicao % 2 == 0)
        {
            printf("%s\n", "seu numero e par");
@@ -10,7 +10,7 @@
     {
         printf("%s\n", "seu numero e impar");
     }
-       
+       return 0;
    }
      
        
