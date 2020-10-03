@@ -1,19 +1,20 @@
 #include <stdio.h>
 int main(){  
-    int x=1;
-    int y=1;
-    int z;
-    for (int x = 1 ; x <=55; x=x+y)
+    int anterior=1;
+    int atual=1;
+    int proximo;
+    printf("%d %d ", anterior, atual);
+    for (int proximo = 1 ; proximo <=55; proximo=atual+anterior)
     {
-       z=x+y;
-       y=z;
-       
+       proximo = anterior + atual;
+       anterior = atual;
+       atual = proximo;
        
      
-       printf("%d %d ",  x, z);
+       printf("%d ", proximo);
            
 
     }
-    
+    return 0;
 
 }
